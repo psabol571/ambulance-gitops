@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: cv1sabol-ambulance-ufe-content
+spec:
+  microFrontend: cv1sabol-ambulance-ufe
+  element: cv1sabol-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?cv1sabol-ambulance-wl(/.*)?$"
