@@ -4,7 +4,10 @@ metadata:
   name: cv1sabol-ambulance-ufe-content
 spec:
   microFrontend: cv1sabol-ambulance-ufe
-  element: cv1sabol-ambulance-wl-list
+  element: cv1sabol-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /cv1sabol-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
