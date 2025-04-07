@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /cv1sabol-ambulance-wl/
     - name: api-base
-      value: http://localhost:5100/api
+      value: http://localhost:30081/api
     - name: ambulance-id
       value: bobulova
   displayRules:
