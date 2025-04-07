@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cv1sabol-ambulance-webapi
+spec:
+  template:
+    spec:
+      containers:
+        - name: openapi-ui
+          env:
+            - name: URL
+              value: /cv1sabol-openapi
+            - name: BASE_URL
+              value: /cv1sabol-openapi-ui
